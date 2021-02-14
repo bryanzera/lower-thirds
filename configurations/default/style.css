@@ -1,0 +1,25 @@
+* {
+  font-family: serif;
+}
+
+#overlay {
+  background-color: none;
+}
+
+#box {
+  background-color: blue;
+  margin-left: calc(0px - 100%);
+}
+
+#title, #sub-title {
+  font-size: 50px;
+  width: 100%;
+}
+
+#box.animation-in  {
+  margin-left: 0px;
+}
+
+#box.animation-out {
+  margin-left: calc(0px + 100%);
+}

@@ -6,8 +6,10 @@ const port = process.env.PORT || 8080;
 
 // Serve a static front end
 app.use(express.static('src'));
+app.use('/configurations', express.static('configurations'))
 
 // List available configurations for the front end
+/*
 app.get('/configurations', (request, response) => {
   let output = [];
   fs.readdir('./configurations', {withFileTypes: true}, (error, entries) => {
@@ -17,10 +19,7 @@ app.get('/configurations', (request, response) => {
     response.json(output);
   });
 });
-
-app.get('/configuration/*', (request, response) => {
-  
-});
+*/
 
 app.listen(port, () => {
   console.log(`Lower thirds running on ${port}`);

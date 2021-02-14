@@ -1,4 +1,10 @@
 {
+  "config": {
+    "seconds-in": 1,
+    "seconds-display": 15,
+    "seconds-out": 1,
+    "seconds-repeat": 60
+  },
   "content": {
     "heading": "Clem Fandango"
     "subheading": "Wants to make sure he's being heard"
