@@ -1,3 +1,5 @@
+// TODO: Move this to an endpoint that injects the following data from the url data
+
 const repeatDuration = 5;
 const animationDuration = .5;
 const titleDuration = 2;
